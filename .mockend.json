@@ -4,7 +4,7 @@
     "code": { "string": {} },
     "amount": { "int": { "min": 0, "max": 1000 } },
     "countArticles": { "int": { "min": 0, "max": 50 } },
-    "Post": {
+    "post": {
       id": { "int": { "min": 0, "max": 1000000 } }
     }
   }
