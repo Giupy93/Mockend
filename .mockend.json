@@ -1,6 +1,12 @@
 {
-  post(id: 5) {
-    title,
-    cover
+  "Post": {
+    "fieldName": {
+      "Comment": {},
+      "hasMany": { "Comment": {} },
+      "belongsTo": { "Comment": {} }
+    }
+  },
+  "Comment": {
+    "code" : { "string": {} }
   }
 }
