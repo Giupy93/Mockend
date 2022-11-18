@@ -7,19 +7,6 @@
     "articles": {
       "hasMany": "Article"
     },
-    "article": {
-      "id": { "int": { "min": 0, "max": 1000 } },
-      "articleId": { "int": { "min": 0, "max": 1000 } },
-      "articleCode": { "string": {} },
-      "articleName": { "string": {} },
-      "secondLanguageName": { "string": {} },
-      "quantity": { "int": { "min": 0, "max": 1000 } },
-      "vatPrice": { "int": { "min": 0, "max": 1000 } },
-      "amount": { "int": { "min": 0, "max": 1000 } },
-      "image": { "string": {} },
-      "cartArticleVariant": { "string": {} },
-      "cartId": { "int": { "min": 0, "max": 1000000 } },
-      "codeCart": { "int": { "min": 0, "max": 1000000 } }
-    }
+    "type": {} | [],
   }
 }
