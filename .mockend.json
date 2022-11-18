@@ -7,6 +7,6 @@
   },
   "Article": {
     "id": { "int": { "min": 1, "max": 1000000 } },
-    "code": { "string": {} },
+    "code": { "string": {} }
   }
 }
