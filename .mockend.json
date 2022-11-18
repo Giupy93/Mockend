@@ -1,7 +1,9 @@
 {
-  "asd": {
-    "name": { "string": {} },
-    "online": { "boolean": {} },
-    "picture": { "regexp": "https://…" }
+  "Post": {
+    "title": { "string": {} },
+    "age": { "number": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
   }
 }
