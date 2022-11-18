@@ -6,8 +6,7 @@
     "countArticles": { "int": { "min": 0, "max": 50 } },
     "articles": {
       "Article": [],
-      "hasMany": "Model",
-      "belongsTo": "Model"
+      "hasMany": "Article"
     }
   },
   "Article": {
