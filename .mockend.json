@@ -3,5 +3,10 @@
     "userComments": {
       "hasMany": "Comment"
     }
+  },
+  "Comment": {
+    "authorPost": {
+      "belongsTo": "Post"
+    }
   }
 }
