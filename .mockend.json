@@ -1,12 +1,6 @@
 {
-  "Post": {
-    "userComments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "authorPost": {
-      "belongsTo": "Post"
-    }
+  post(id: 5) {
+    title,
+    cover
   }
 }
