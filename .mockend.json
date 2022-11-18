@@ -3,6 +3,7 @@
     "title": { "string": {} },
     "personalComment": {
       "hasMany": "Comment"
+    }
   },
   "Comment": {
     "body": { "string": {} },
