@@ -9,8 +9,8 @@
     }
   },
   "Article": {
-    "id": { "int": { "min": 1, "max": 1000000 } },
-    "code": { "string": {} },
+    "number": { "int": { "min": 1, "max": 1000000 } },
+    "text": { "string": {} },
     "cart": {
       "belongsTo": "Cart"
     }
