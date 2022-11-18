@@ -1,7 +1,7 @@
 {
   "Post": {
     "title": { "string": {} },
-    "author": { "string": {} }.
+    "author": { "string": {} },
     "pages": { "int": { "min": 0, "max": 500 } },
     "personalComment": {
       "hasMany": "Comment"
