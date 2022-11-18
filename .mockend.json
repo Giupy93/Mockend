@@ -1,24 +1,14 @@
-type User {
-    id: ID!
-    name: String
-    lists: [List]
+{
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
-  type List {
-    id: ID!
-    name: String
-    owner: User
-    incomplete_count: Int
-    tasks(completed: Boolean): [Task]
-  }
-  type Task {
-    id: ID!
-    text: String
-    completed: Boolean
-    list: List
-  }
-  type RootQuery {
-    user(id: ID): User
-  }
-  schema {
-    query: RootQuery
-  }
+}
