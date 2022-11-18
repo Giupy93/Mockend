@@ -1,19 +1,7 @@
 {
   "Post": {
-    "title": { "string": {} },
-    "author": { "string": {} },
-    "pages": { "int": { "min": 0, "max": 500 } },
-    "personalComment": {
+    "userComments": {
       "hasMany": "Comment"
-    },
-    "code": {
-      "int": [ 100, 200, 300 ]
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
     }
   }
 }
