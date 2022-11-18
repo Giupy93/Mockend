@@ -7,7 +7,9 @@
       "hasMany": "Comment"
     },
     "list": [
-      { "Comment": {} }
+      { "body": { "string": {} } },
+      { "body": { "string": {} } },
+      { "body": { "string": {} } }
     ]
   },
   "Comment": {
