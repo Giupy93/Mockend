@@ -1,9 +1,24 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "age": { "int": { "min": 0, "max": 1000000 } },
-    "comments": {
-      "hasMany": "Comment"
-    }
+  "Cart": {
+    "id": { "int": { "min": 0, "max": 1000000 } },
+    "code": "CDU2209191243320747",
+    "amount": { "int": { "min": 0, "max": 1000 } },
+    "countArticles": { "int": { "min": 0, "max": 50 } },
+    "articles": [
+        {
+            "id": { "int": { "min": 0, "max": 1000 } },
+            "articleId": { "int": { "min": 0, "max": 1000 } },
+            "articleCode": { "string": {} },
+            "articleName": { "string": {} },
+            "secondLanguageName": null,
+            "quantity": { "int": { "min": 0, "max": 1000 } },
+            "vatPrice": { "int": { "min": 0, "max": 1000 } },
+            "amount": { "int": { "min": 0, "max": 1000 } },
+            "image": { "string": {} },
+            "cartArticleVariant": null,
+            "cartId": { "int": { "min": 0, "max": 1000000 } },
+            "codeCart": { "int": { "min": 0, "max": 1000000 } },
+        }
+    ]
   }
 }
