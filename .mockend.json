@@ -1,7 +1,7 @@
 {
   "Post": {
     "title": { "string": {} },
-    "pages": { "number": { "min": 0, "max": 1000000 } },
+    "pages": { "int": { "min": 0, "max": 1000000 } },
     "personalComment": {
       "hasMany": "Comment"
     }
