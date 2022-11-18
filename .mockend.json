@@ -3,9 +3,6 @@
     "id": { "int": { "min": 0, "max": 1000000 } },
     "code": { "string": {} },
     "amount": { "int": { "min": 0, "max": 1000 } },
-    "countArticles": { "int": { "min": 0, "max": 50 } },
-    "Post": {
-      "id": { "int": { "min": 0, "max": 1000000 } }
-    }
+    "countArticles": { "int": { "min": 0, "max": 50 } }
   }
 }
