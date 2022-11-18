@@ -1,7 +1,7 @@
 {
   "Post": {
     "fieldName": {
-      "Comment": [],
+      "string": [],
       "hasMany": "Comment",
       "belongsTo": "Comment"
     }
