@@ -7,6 +7,6 @@
     "articles": {
       "hasMany": "Article"
     },
-    "type": {} | [],
+    "type": [],
   }
 }
