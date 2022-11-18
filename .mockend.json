@@ -1,5 +1,5 @@
 {
-  "Test": {
+  "asd": {
     "name": { "string": {} },
     "online": { "boolean": {} },
     "picture": { "regexp": "https://…" }
