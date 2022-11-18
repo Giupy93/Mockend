@@ -5,7 +5,10 @@
     "pages": { "int": { "min": 0, "max": 500 } },
     "personalComment": {
       "hasMany": "Comment"
-    }
+    },
+    "list": [
+      { "Comment": {} }
+    ]
   },
   "Comment": {
     "body": { "string": {} },
