@@ -1,7 +1,7 @@
 {
   "Cart": {
     "id": { "int": { "min": 0, "max": 1000000 } },
-    "code": "CDU2209191243320747",
+    "code": { "string": {} },
     "amount": { "int": { "min": 0, "max": 1000 } },
     "countArticles": { "int": { "min": 0, "max": 50 } },
     "articles": [
@@ -10,12 +10,12 @@
             "articleId": { "int": { "min": 0, "max": 1000 } },
             "articleCode": { "string": {} },
             "articleName": { "string": {} },
-            "secondLanguageName": null,
+            "secondLanguageName": { "string": {} },
             "quantity": { "int": { "min": 0, "max": 1000 } },
             "vatPrice": { "int": { "min": 0, "max": 1000 } },
             "amount": { "int": { "min": 0, "max": 1000 } },
             "image": { "string": {} },
-            "cartArticleVariant": null,
+            "cartArticleVariant": { "string": {} },
             "cartId": { "int": { "min": 0, "max": 1000000 } },
             "codeCart": { "int": { "min": 0, "max": 1000000 } },
         }
